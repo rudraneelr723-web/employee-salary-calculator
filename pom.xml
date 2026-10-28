@@ -1,15 +1,33 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4f51e5b6ca72d578a28d4391265552c02b40399c
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<<<<<<< HEAD
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.example</groupId>
     <artifactId>employee-salary-jdbc-sql-app</artifactId>
     <version>1.0.0</version>
+=======
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.example</groupId>
+    <artifactId>employee-salary-jdbc-sql-app</artifactId>
+    <version>1.0.0</version>
+
+>>>>>>> 4f51e5b6ca72d578a28d4391265552c02b40399c
     <properties>
         <maven.compiler.release>17</maven.compiler.release>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4f51e5b6ca72d578a28d4391265552c02b40399c
     <dependencies>
         <dependency>
             <groupId>com.mysql</groupId>
@@ -17,6 +35,10 @@
             <version>9.5.0</version>
         </dependency>
     </dependencies>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4f51e5b6ca72d578a28d4391265552c02b40399c
     <build>
         <plugins>
             <plugin>
@@ -24,6 +46,7 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.14.1</version>
             </plugin>
+<<<<<<< HEAD
         <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
@@ -31,4 +54,18 @@
             </plugin>
         </plugins>
     </build>
+=======
+
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.6.2</version>
+                <configuration>
+                    <mainClass>com.example.salary.Main</mainClass>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+>>>>>>> 4f51e5b6ca72d578a28d4391265552c02b40399c
 </project>
